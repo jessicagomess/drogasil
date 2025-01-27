@@ -18,8 +18,8 @@ public class Categoria {
 	@NotBlank(message = "O atributo tipo é obrigatório")
 	private String tipo;
 	
-	@NotBlank(message = "O atributo estoque é obrigatório")
-	private String estoque;
+	@NotBlank(message = "O atributo descrição é obrigatório")
+	private String descricao;
 
 	public Long getId() {
 		return this.id;
@@ -37,12 +37,12 @@ public class Categoria {
 		this.tipo = tipo;
 	}
 
-	public String getEstoque() {
-		return this.estoque;
+	public String getDescricao() {
+		return this.descricao;
 	}
 
-	public void setEstoque(String estoque) {
-		this.estoque = estoque;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 	
 	
